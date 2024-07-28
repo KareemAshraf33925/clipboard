@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body ,html{
+    font-family: "Bai Jamjuree", sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+}
+:root{
+    --StrongCyan: hsl(171, 66%, 44%);
+    --LightBlue: hsl(233, 100%, 69%);
+    --DarkGrayishBlue: hsl(210, 10%, 33%);
+    --GrayishBlue: hsl(201, 11%, 66%);
+}
+/* start-header */
+#head{
+    background: url(images/bg-header-desktop.png) center center/cover no-repeat;
+}
+#head .container{
+
+padding-top: 100px;
+}
+#head .container .head-about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#head .container .head-about img{
+    width: 80px;
+}
+#head .container .head-about h1{
+    margin: 60px 0px 15px 0px;
+    font-size: 35px;
+    font-weight: 600;
+}
+#head .container .head-about p{
+    
+    text-align: center;
+    font-weight: 400;
+    color: var(--GrayishBlue);
+    line-height: 25px;
+   
+}
+#head .container .head-about .head-button {
+    margin-top: 30px;
+}
+#head .container .head-about .head-button .btn-1{
+    padding: 12px 25px;
+    background-color: var(--StrongCyan);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    margin-right: 10px;
+
+}
+#head .container .head-about .head-button .btn-2{
+    padding: 12px 25px;
+    background-color: var(--LightBlue);
+    margin-left: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+
+}
+
+/* end-header */
+/* start-track */
+#track .container{
+    margin: 100px 100px 30px;
+}
+#track .container .track-about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+#track .container .track-about h2{
+    margin-bottom: 30px;
+}
+#track .container .track-about p{
+    opacity: 0.8;
+    margin: 0px 260px;
+    text-align: center;
+    line-height: 25px;
+}
+#track .container .row{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;  
+    
+}
+#track .container .row img{
+width: 750px;
+margin-top:130px;
+position:relative;
+right: 200px;
+
+    
+}
+#track .container .row .coulm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+  
+    
+
+}
+#track .container .row .coulm .rov {
+    margin: 0px 0px 60px 0px;
+    display: flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:flex-start;
+    
+    
+    
+}
+#track .container .row .coulm .rov h4{
+    margin:0px 0px 20px 20px;
+    
+    font-weight: 600;
+}
+#track .container .row .coulm .rov p{
+    color: var(--GrayishBlue);
+    font-weight: 400;
+    margin: 0px  20px 0px 20px;
+}
+/* end-track */
+/* start-clipboard */
+#clipboard .container{
+    margin: 150px auto 0;
+    text-align: center;
+}
+#clipboard .container .clib-content h2{
+    font-weight:600;
+    
+    
+}
+#clipboard .container .clib-content p{
+    color: var(--GrayishBlue);
+    margin: 30px 0px 0px 0px;
+    text-align: center;
+    line-height: 30px;
+
+}
+#clipboard .container .clib-content img{
+    margin-top: 90px;
+    height: 480px;
+    width: 800px;
+}
+/* end-clipboard  */
+/* start-subercharg */
+#subercharg .container{
+    margin:100px  auto;
+}
+#subercharg .container .suber-content{
+    text-align: center;
+}
+#subercharg .container .row{
+    display: grid;
+   grid-template-columns: repeat(3,1fr);
+   column-gap: 40px;
+   text-align: center;
+   margin-top: 100px;
+}
+#subercharg .container .row .col h3{
+    margin-top: 50px;
+    font-weight: 600;
+}
+#subercharg .container .row .col p{
+    margin:25px 40px;
+    color: var(--GrayishBlue);
+    font-weight: 400;
+}
+#company .container{
+    margin: 50px 100px;
+}
+#company .container .comp-content{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+/* end-subercharg */
+/* start-clipios */
+#clipios .container{
+
+    padding: 100px 0px;
+    
+    }
+    #clipios .container .ios-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #clipios .container .ios-content h1{
+        margin: 60px 0px 15px 0px;
+        font-size: 35px;
+        font-weight: 600;
+    }
+    #clipios .container .ios-content p{
+        
+        text-align: center;
+        font-weight: 400;
+        color: var(--GrayishBlue);
+        line-height: 25px;
+        margin: 30px 0px 0px;
+       
+    }
+    #clipios .container .ios-content .ios-button {
+        margin-top: 30px;
+    }
+    #clipios .container .ios-content .ios-button .btn-1{
+        padding: 12px 25px;
+        background-color: var(--StrongCyan);
+        color: #fff;
+        border: none;
+        border-radius: 20px;
+        margin-right: 10px;
+    
+    }
+    #clipios .container .ios-content .ios-button .btn-2{
+        padding: 12px 25px;
+        background-color: var(--LightBlue);
+        margin-left: 10px;
+        color: #fff;
+        border: none;
+        border-radius: 20px;
+    
+    }
+    
+
+
+
+/* end-clipboard */
+/* start-footer */
+#foot{
+    background-color: #f7f3f3;
+}
+#foot .container{
+    margin: 50px  0px 0px 120px;
+}
+#foot .container .row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+    padding:30px 0px 0px 1px;
+}
+#foot .container .row .col ul{
+    list-style: none;
+    color: var(--GrayishBlue);
+}
+#foot .container .row .col ul li{
+    margin: 20px 0px;
+}
+#foot .container .row .col img{
+    width: 40px;
+    margin-top: 30px;
+    font-weight: 400;
+}
+#foot .container .row .col-links  {
+  
+    margin: 20px 0px 0px 100px;
+    float: right;
+}
+#foot .container .row .col-links  a{
+    color:var(--DarkGrayishBlue);
+    font-size: 30px;
+    margin-left: 30px;
+    
+}
+/* end-footer */
+/* media query */
+@media(max-width:375px){
+    /* start-header */
+    
+    #head .container{
+
+        padding-top:30px;
+        margin-bottom: 0px;
+        }
+        #head .container .head-about img{
+            width: 30px;
+        }
+        #head .container .head-about .head-button{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        #head .container .head-about h1{
+            font-size:20px;
+            width:200px;
+            text-align: center;
+        }
+        #head .container .head-about p{
+    
+           font-size:15px;
+           width: 300px;
+           line-height:20px ;
+
+           
+        }
+        #head .container .head-about .head-button .btn-1{
+            padding:15px 25px;
+            margin:0px 0px 5px 10px;
+            
+        
+        }
+        #head .container .head-about .head-button .btn-2{
+         
+            padding:15px 25px;
+            margin:0px 0px 5px 10px;
+           
+        }
+
+        /* end-header */
+        /* start-track */
+        #track{
+            width: 300px;
+        }
+
+       #track .container .track-about{
+        text-align: center;
+       }
+        
+        #track .container .track-about h2{
+            font-size:20px;
+            width:250px;
+            margin-left:80px;
+            text-align: center;
+        }
+        #track .container .track-about p{
+            font-size:15px;
+           width:300px;
+           line-height:20px ;
+           margin: 0px 0px 0px 80px;
+        }
+        #track .container .row{
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items: center;  
+            
+        }
+        #track .container .row img{
+            width:250px;
+            margin-left:450px;
+          
+            
+                
+            }
+            #track .container .row .coulm .rov h4{
+                width: 200px;
+                font-size:20px;
+                margin-bottom: 0px;
+                text-align: center;
+                margin-left:100px;
+            }
+            #track .container .row .coulm .rov p{
+              width: 300px;
+              font-size: 15px;
+              text-align: center;
+              margin-left: 50px;
+              margin-top: 5px;
+            }
+            #track .container .row .coulm .rov {
+                margin-bottom:10px;
+                
+                
+                
+            }
+            /* end-track */
+          /* start-clipboard */
+          #clipboard .container .clib-content{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+          }
+          #clipboard .container .clib-content h2{
+           font-size: 20px;
+            
+            
+        }
+        #clipboard .container .clib-content p{
+            font-size: 15px;
+        
+        }
+        #clipboard .container .clib-content img{
+            margin-top: 90px;
+            height: 480px;
+            width: 250px;
+            height: 200px
+        }
+        /* end-clipboard  */
+       /* start-subercharg */
+       #subercharg .container .row{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+    #subercharg .container .row .col h3{
+       font-size: 20px;
+    }
+    #subercharg .container .row .col p{
+      font-size: 15px;
+    }
+    /* end-subercharg */
+    /* start-clipios */
+    #company .container .comp-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    #company .container .comp-content img{
+        margin-top: 100px;
+    }
+    #clipios .container .ios-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #clipios .container .ios-content .ios-button{
+        display:flex ;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    #clipios .container .ios-content .ios-button .btn-1{
+        padding:15px 25px;
+        margin:0px 0px 5px 10px;
+        
+        
+    
+    }
+    #clipios .container .ios-content .ios-button .btn-2{
+        padding:15px 25px;
+        margin:0px 0px 5px 10px;
+    
+    }
+    /* end-clipboard */
+    /* start-footer */
+    #foot .container{
+        margin: 30px  0px 0px 0px;
+        text-align: center;
+    }
+    
+    #foot .container .row{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: flex-start;
+       padding: 0px;
+       
+    }
+    #foot .container .row .col img{
+      margin-right: ;
+    }
+    #foot .container .row .col-links  {
+  
+        margin:0px;
+        padding: 50px 0px;
+        
+    }
+
+
+
+         
+
+
+
+}
